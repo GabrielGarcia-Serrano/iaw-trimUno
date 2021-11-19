@@ -50,13 +50,13 @@
         <div class="container">
         <article>
             <form method="POST" action="modificar.php">
-                <br><label for id="producto">Producto: </label>
+                <br><label for id="producto">Producto: </label><br>
                 <input type="text" name="producto" id="producto"><br>
-                <br><label for id="precio">Precio: </label>
+                <br><label for id="precio">Precio: </label><br>
                 <input type="int" name="precio" id="precio"><br>
-                <br><label for id="descripcion">Descripcion: </label>
+                <br><label for id="descripcion">Descripcion: </label><br>
                 <input type="text" name="descripcion" id="descripcion"><br>
-                <br><label for id="imagen">Imagen: </label>
+                <br><label for id="imagen">Imagen: </label><br>
                 <input type="text" name="imagen" id="imagen"><br><br>
                 <button type="submit" class='btn btn-primary' value="Enviar">Nuevo producto</button>
             </form>
