@@ -1,0 +1,29 @@
+Página web con CSS mínimo, uniforme y consistente
+
+Lista de compra guardada en sesión
+
+Páginas --> usuario (listado de productos); carrito de la compra; login administrador; visualización tablas; script sql con datos para la tabla
+
+BBDD --> pedidos (idCompra, fecha, producto, precioUnidad); productos (nombre, precioUnidad, descripción, imagenNombre)
+
+Páginas finales:
+    * usuario.php --> lisatdo productos + carrito de la compra + login
+    - comprar.php --> compra de productos, registro en base de datos y redirección a 'usuario.php'
+    - vaciar.php --> limpiar la lista de productos y redirección a 'usuario.php'
+    - anadir.php --> añadir producto a la lista de la compra y redirección a 'usuario.php'
+    - login.php --> verificación de login y redirección a 'usuario.php' o 'basedatos.php', según registro correcto o no
+    * baseDatos.php --> tabla con los productos y pedidos. debe permitir modificar, añadir y/o eliminar
+
+    - script.js --> scripts de mostrar ocultar 2 sidebar de 'usuario.php', contraseña de 'usuario.php'
+
+    - estilos.css --> estilos
+
+    -> si tabla=productos --> modificar precio, descripcion, imagen --> botón pasa datos
+    -> si tabla=pedidos --> nada de modificar
+
+
+codepen.io
+https://codepen.io/xmas1224/pen/MWJqbao
+
+------------------------------------------------------------------------
+Meter boton para mostrar pedidosCaros.php o no mostrarlo --> mete variable en sesion --> se lee --> hace include --> quita variable --> no hace include
